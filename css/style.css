@@ -1,0 +1,113 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+}
+
+.profile-section {
+    text-align: left;
+}
+
+.profile-pic {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.profile-name {
+    font-size: 1.75rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.profile-username {
+    color: #8b949e;
+    margin-bottom: 1rem;
+}
+
+.profile-title {
+    font-size: 1rem;
+    color: #c9d1d9;
+    margin-bottom: 1rem;
+}
+
+.profile-stats {
+    color: #8b949e;
+    margin-bottom: 1rem;
+}
+
+.content {
+    background-color: #161b22;
+    border-radius: 6px;
+    padding: 2rem;
+}
+
+.readme-header {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.wave-emoji {
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    margin-bottom: 1rem;
+    color: #c9d1d9;
+}
+
+li strong {
+    color: #ffffff;
+}
+
+.nested-list {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #8b949e;
+    margin-bottom: 0.5rem;
+}
+
+.time {
+    color: #8b949e;
+    margin-bottom: 1rem;
+}
